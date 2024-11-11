@@ -1,40 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Sistema de Aprendizaje Online (LMS)
 
-## Getting Started
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-First, run the development server:
+## 🚀 Descripción
+
+Sistema de Gestión de Aprendizaje (LMS) moderno y eficiente, desarrollado como proyecto de aprendizaje utilizando las últimas tecnologías web. Esta plataforma permite la gestión de cursos, seguimiento de progreso y evaluación de estudiantes.
+
+## ✨ Características
+
+- 📚 Gestión de cursos y contenido
+- 👥 Sistema de usuarios y roles
+- 📊 Seguimiento de progreso
+- 📝 Sistema de evaluación
+- 🎯 Gamificación
+- 📱 Diseño responsivo
+- 🔒 Autenticación segura
+
+## 🛠️ Stack Tecnológico
+
+### Frontend
+- React 18
+- TypeScript 5
+- Next.js 14
+- Tailwind CSS
+- Zustand (State Management)
+- React Query
+- ShadcnUI Components
+
+### Backend
+- Node.js
+- Express.js
+- Prisma (ORM)
+- MySQL
+
+## 🚀 Inicio Rápido
+
+### Prerrequisitos
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+node -v  # v18.x o superior
+npm -v   # v9.x o superior
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Instalación
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+1. Clonar el repositorio
+```bash
+git clone https://github.com/Langels-dev/sistema-aprendizaje.git
+cd sistema-aprendizaje
+```
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+2. Instalar dependencias
+```bash
+npm install
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+3. Configurar variables de entorno
+```bash
+cp .env.example .env
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Iniciar el servidor de desarrollo
+```bash
+npm run dev
+```
 
-## Learn More
+## 📁 Estructura del Proyecto
 
-To learn more about Next.js, take a look at the following resources:
+```
+sistema-aprendizaje/
+├── src/
+│   ├── app/             # App router y páginas
+│   ├── components/      # Componentes React
+│   ├── lib/            # Utilidades y configuraciones
+│   └── styles/         # Estilos globales
+├── public/             # Archivos estáticos
+├── prisma/            # Schema y migraciones
+└── tests/            # Tests
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+## 🤝 Contribución
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Por favor, lee [CONTRIBUTING.md](CONTRIBUTING.md) para detalles sobre nuestro código de conducta y el proceso para enviar pull requests.
 
-## Deploy on Vercel
+## 📝 Licencia
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](LICENSE.md) para detalles.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## 👨‍💻 Autor
+
+- [@Langels-dev](https://github.com/Langels-dev)
